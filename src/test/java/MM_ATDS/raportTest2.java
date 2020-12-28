@@ -31,7 +31,7 @@ public class raportTest2 {
 
     @Test
     public void raportTest() throws InterruptedException {
-        amiLogowanie("Z4100542", "Jan123!#Pap");
+        amiLogowanie("LOGIN", "HASLO");
     }
 
     private void amiLogowanie(String name, String password) {
