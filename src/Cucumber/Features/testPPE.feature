@@ -1,6 +1,6 @@
 Feature:  test zakładki PPE
   Scenario: uzytkownik  włącza wszystkie podzakładki z zakładki PunktPoboruEnergii
-    When uzytkownik loguje sie do systemu 01Z00354 oraz energa3!
+    When uzytkownik loguje sie do systemu LOGIN oraz HASLO
     And uzytkownik wybiera opcje menu Punkty Poboru Energii
     And użytkownik wybiera PPE z listy
     And użytkownik otwiera podzakładki z PPE
