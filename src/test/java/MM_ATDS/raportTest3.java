@@ -33,7 +33,7 @@ public class raportTest3 {
     public void raportTest() {
         driver.findElement(By.xpath("/html/body/div/div[2]/button[3]")).click();
         driver.findElement(By.xpath("/html/body/div/div[3]/p[2]/a")).click();
-        amiLogowanie("Z4100542", "Jan123!#Pap");
+        amiLogowanie("LOGIN", "HASLO");
     }
 
     private void amiLogowanie(String name, String password) {
