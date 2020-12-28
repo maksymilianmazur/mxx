@@ -1,6 +1,6 @@
 Feature:  test zakładki Procesor Danych
   Scenario: uzytkownik  włącza wszystkie podzakładki z zakładki Procesor danych
-    When uzytkownik loguje sie do systemu Z4100542 oraz Jan123!#Pap
+    When uzytkownik loguje sie do systemu LOGIN oraz HASLO
     And uzytkownik wybiera opcje menu Procesor danych
     And uzytkownik wybiera licznik wirtualny oraz przechodzi przez jego podzakladki
     And uzytownik wybiera walidatory oraz przechodzi przez jego podzakladki
